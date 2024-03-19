@@ -1,0 +1,38 @@
+body{
+    height: 50%;
+}
+
+.m-cont{
+    border: 1px solid black;
+    height: 100vh;
+    
+}
+.sub-cont{
+    
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sub-cont-h{
+    position: relative;
+    left: 2px;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+}
+
+.sub-cont-u{
+    
+    height: 213px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    bottom: 30px;
+}
+.sub-cont-lb{
+   border: 1px solid black;
+    position: relative;
+    bottom: 50px;
+}

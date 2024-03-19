@@ -1,0 +1,189 @@
+body{
+
+    background-color:rgb(242, 211, 211) ;
+
+    padding: 0;
+
+    margin: 0;
+
+   
+
+}
+
+.admin-row{
+
+ 
+
+    display: flex;
+
+    background-color: rgb(245, 205, 205);
+
+    margin-right: 0px;
+
+}
+
+.admin-col1{
+
+    display: flex;
+
+    width: 50%;
+
+    height:100vh;
+
+    flex: 1 1 41px;
+
+    padding: 0;
+
+}
+
+.admin-col2{
+
+   
+
+    display: flex;
+
+    width: 50%;
+
+    background-color: rgb(242, 245, 247);
+
+    height: 100vh;
+
+    flex: 1 1 41px;
+
+    align-items: center;
+
+    justify-content: center;
+
+ 
+
+   
+
+}
+
+.admin-col2 form{
+
+    width: 100%;
+
+}
+
+.admin-row2{
+
+    display: inline-flex;
+
+ 
+
+}
+
+h2 {
+
+    text-align: center;
+
+    position: relative;
+
+    margin-left: 60px;
+
+    padding-bottom: 10px;
+
+     
+
+}
+
+p{
+
+    text-align: center;
+
+}
+
+input{
+
+    margin-top: 5px;
+
+    margin-bottom: 20px;
+
+    width: 90%;
+
+    padding: 5px;
+
+    border:none;
+
+    border-radius: 7px;
+
+}
+
+label{
+
+    align-items: left;
+
+    margin-bottom: 15px;
+
+}
+
+.admin-submit{
+
+    background-color: rgb(161, 10, 10);
+
+    color: aliceblue;
+
+    border:none;
+
+    padding: 8px;
+
+    width: 90%;
+
+    margin-top: 15px;
+
+    border-radius: 8px;
+
+}
+
+.admin-submit:hover{
+
+    background-color: rgb(177, 42, 42);
+
+    box-shadow: 2px 4px 10px black;
+
+}
+
+.admin-col1 .img{
+
+    margin-top: 0%;
+
+    width: 100%;
+
+    height: 100%;
+
+   
+
+ 
+
+}
+
+.admin-item{
+
+   
+
+    text-align: left;
+
+    padding-left: 10%;
+
+    width: 100%;
+
+   
+
+}
+
+.error{
+
+    color: brown;
+
+    background-color: rgba(228, 143, 143, 0.221);
+
+    border:1px solid red;
+
+    font-size: smaller;
+
+}
+
+ 
+
+ 

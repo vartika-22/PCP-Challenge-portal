@@ -1,0 +1,63 @@
+/* carousel.css */
+.carousel-container {
+  background-color: rgb(255, 255, 255);
+  
+  
+}
+
+.carousel-slider {
+  padding: 0 10px;
+  z-index: 14;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 190px;
+  width: 95%;
+  margin-left: 28px;
+}
+
+.link-to-s{
+  text-decoration: none;
+}
+.main-div-carousel{
+  
+  height: 180px;
+  max-width: 100%;
+}
+.carousel-item {
+  border-radius: 15px;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+  height: 170px;
+  max-width: 95%;
+  border: 1px solid black;
+  background-color: white;
+  opacity: 1;
+  
+  
+}
+
+.carousel-item:hover {
+  background-color: rgb(153, 13, 13);
+  color: white;
+
+ 
+}
+
+.carousel-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-width: 100%;
+  color: black;
+  background-color: transparent;
+  
+}
+
+/* Autoplay slider */
+

@@ -1,0 +1,358 @@
+.leaderboard-header {
+
+  display: flex;
+
+  align-items: center;
+ 
+  justify-content: center;
+
+  flex-direction: column;
+
+  margin-bottom: 20px;
+
+}
+
+ 
+
+.leaderboard-image {
+
+  max-width: 100%;
+
+  height: auto;
+
+  border-radius: 5px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 10px;
+
+}
+
+ 
+
+.leaderboard {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    
+
+    padding: 20px;
+
+  }
+
+ 
+
+  .leaderboard h1 {
+
+    font-size: 24px;
+
+    margin-bottom: 20px;
+
+    width: 800px;
+
+  }
+
+ 
+
+ 
+
+  .leaderboard-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    max-width: 100%;
+
+    margin: 10px 0;
+
+    padding: 10px;
+    position: relative;
+    right: 10px;
+
+    background-color: #f3f3f3;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+
+ 
+
+  .name {
+
+    font-weight: bold;
+
+  }
+
+ 
+
+  .score {
+
+    color: #0c9c2b;
+
+  }
+
+ 
+
+  .email
+
+  {
+
+    color: #007bff;
+
+  }
+
+ 
+
+ 
+
+  .leaderboard-table-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-weight: bold;
+
+    padding: 10px;
+
+    width: 800px;
+    position: relative;
+    right: 10px;
+
+    margin: 10px 0;
+
+    background-color: #f0f0f0;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  .leaderboard-table-header .stu-name{
+    position: relative;
+    right: 45px;
+
+  }
+  .leaderboard-table-header .stu-score{
+    position: relative;
+    right: 45px;
+
+  }
+  .leaderboard-table-header .stu-email{
+    position: relative;
+    right: 45px;
+
+  }
+
+ 
+
+  .header1 {
+
+    width: 50%;
+
+  }
+
+ 
+
+ .card {
+
+        background-color: #fff;
+
+        border-radius: 5px;
+
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        padding: 20px;
+
+        margin: 10px;
+
+        max-width: 820px;
+
+        width: 100%;
+
+      }
+
+ 
+
+ 
+
+  .search-card {
+
+    justify-content: space-between;
+
+    width: 820px;
+
+  }
+
+ 
+
+  .leaderboard-card {
+
+    justify-content: space-between;
+
+   
+
+    width: 820px;
+
+  }
+
+ 
+
+.search-input {
+
+  display: flex;
+
+  align-items: center;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+  padding: 8px;
+
+   
+
+}
+
+ 
+
+input[type="text"] {
+
+  flex: 1;
+
+  border: none;
+
+  padding: 0;
+
+  margin-left: 10px;
+
+  font-size: 14px;
+  margin-top: 20px;
+
+}
+
+ 
+
+.search-icon {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 30px;
+
+  height: 30px;
+
+  background-color: #f0f0f0;
+
+  border-top-left-radius: 5px;
+
+  border-bottom-left-radius: 5px;
+
+}
+
+ 
+
+.icon {
+
+  color: #aaa;
+
+  font-size: 18px;
+
+}
+
+ 
+
+ 
+
+ 
+
+.search-input {
+
+  display: flex;
+
+  align-items: center;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+  padding: 8px;
+
+}
+
+ 
+
+input[type="text"] {
+
+  flex: 1;
+
+  border: none;
+
+  padding: 0;
+
+  margin-left: 10px;
+
+  font-size: 14px;
+
+}
+
+ 
+
+.search-icon {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 30px;
+
+  height: 30px;
+
+  background-color: #f0f0f0;
+
+  border-top-left-radius: 5px;
+
+  border-bottom-left-radius: 5px;
+
+}
+
+ 
+
+.icon {
+
+  color: #aaa;
+
+  font-size: 18px;
+
+}
+
+.rank-icon {
+
+  align-items: center;
+  margin-right: 5px;
+  position: relative;
+  bottom: 2px;   
+
+}
+
+.score-icon,.mail-icon{
+  margin-right: 5px;
+  position: relative;
+  bottom: 2px;
+}
+
+ 

@@ -1,0 +1,275 @@
+:root {
+
+    --primary-color: #007bff;
+
+   
+
+    --error-color: #dc3545;
+
+  }
+
+.end-btn {
+
+    background-color: var(--primary-color);
+
+    color: white;
+
+    border: none;
+
+    padding: 8px;
+
+    transition: background-color 0.3s ease;
+
+  }
+
+ 
+
+  .end-btn:hover {
+
+    background-color: var(--primary-color);
+
+  }
+
+ 
+
+.btn{
+
+    float: right;
+
+}
+
+.ques-sec{
+
+   
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: 77vh;
+
+}
+
+.quiz-que{
+
+   
+
+    width: 30%;
+
+    font-weight: 600;
+
+    align-items: center;
+
+ 
+
+}
+
+.quiz-ul{
+
+   
+
+   height: 70vh;
+
+   width: 60%;
+
+   margin-left:10px
+
+}
+
+ 
+
+.ques-sec p{
+
+    text-align: left;
+
+    margin-left: 20px;
+
+}
+
+ 
+
+.la-inp{
+
+    position: relative;
+
+    right: 30px;
+
+   
+
+}
+
+ 
+
+.quiz-cont{
+
+   
+
+    height: 100vh;
+
+}
+
+.b-cont{
+
+ 
+
+align-items: center;
+
+display: flex;
+
+justify-content: flex-end;
+
+height: 50px;
+
+padding-right: 20px;
+
+border-bottom: 1px solid black;
+
+}
+
+.end-btn{
+
+    cursor: pointer;
+
+    margin: 10px;
+
+   
+
+}
+
+.next-q{
+
+    position: relative;
+
+    left: 20px;
+
+   
+
+}
+
+ 
+
+.quiz-container {
+
+    background-color: #f4f4f4;
+
+    border: 1px solid #ddd;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    margin: 10px;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+
+  }
+
+ 
+
+  .timer {
+
+    background-color: #fff;
+
+    padding: 10px;
+
+    margin: 12px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+  }
+
+ 
+
+  .actions {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+  }
+
+ 
+
+  .quiz-content {
+
+    background-color: #fff;
+
+    padding: 20px;
+
+    margin: 10px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+  }
+
+ 
+
+  .question-section {
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    background-color: #f9f9f9;
+
+  }
+
+ 
+
+  .quiz-completed {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+  }
+
+  .modal.fade .modal-dialog {
+
+    transform: translate(0, -50px);
+
+    transition: transform 0.3s ease;
+
+  }
+
+ 
+
+  /* Example fade-in/fade-out animation */
+
+.quiz-content {
+
+    animation: fade-in 0.5s ease-in-out;
+
+  }
+
+ 
+
+  @keyframes fade-in {
+
+    from {
+
+      opacity: 0;
+
+    }
+
+    to {
+
+      opacity: 1;
+
+    }
+
+  }

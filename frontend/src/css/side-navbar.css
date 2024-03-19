@@ -1,0 +1,135 @@
+.main-container{
+    display: flex;
+}
+.sub-main-container{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: width 0.4s ease;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: rgb(243, 242, 242);
+    position: sticky;
+}
+
+
+
+.custom-container{
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ab1212;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: width 0.4s ease;
+    z-index: 100;
+   
+}
+
+.custom-sidebar{
+    
+    max-width: 100%;
+   
+}
+.custom-topsection{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    top: 13px;
+    height: 70px;
+    margin-bottom: 20px;
+   
+    
+    
+}
+.custom-topsection .logo{
+    display: flex;
+    height: 60px;
+    text-align: center;
+    width: 70%;
+    align-items: bottom;
+    justify-content: right;
+    color: white;
+    font-size: 1.4em;
+    
+    padding-left: 50px;
+    
+    
+}
+.custom-topsection .custom-bars{
+    display: flex;
+    width: 30%;
+    height: 60px;
+  
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+   
+}
+.custom-sidebar-list{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    
+    
+    padding:0 10px 5px 10px;
+    
+    
+}
+.custom-sidebar-list h3{
+    text-transform: capitalize;
+    font-size: 1.3em;
+    margin-top: 10px;
+    text-align: left;
+    position: relative;
+    left: 20px;
+    color: green;
+}
+.custom-sidebar-item-container{
+   
+    margin-top: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    
+    background-color: transparent;
+}
+.custom-sidebar-item-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+    background-color: transparent;
+    font-size: 1.3em;
+}
+.custom-sidebar-item-2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    background-color: transparent;
+    font-weight: 600;
+    text-transform: capitalize;
+   
+}
+.custom-sidebar-item-container:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.ext{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,19 @@
+.icon {
+    font-size: 25px; /* Adjust the icon size as needed */
+    margin-right: 25px;
+    color: #ab1212; /* Adjust the margin between icons */
+    
+  }
+
+  .icon:hover,.powerbtn:hover{
+    color: blue;
+
+  }
+  
+  .powerbtn {
+    font-size: 25px; /* Adjust the icon size as needed */
+    color: #ab1212;
+    position: relative;
+    top: 2px;
+  }
+  

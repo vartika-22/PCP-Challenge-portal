@@ -1,0 +1,239 @@
+.profile-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-column,
+.right-column {
+  width: 48%;
+}
+
+.profile-image-container {
+  margin-bottom: 20px;
+  border-radius: 30%;
+  overflow: hidden;
+}
+
+.profile-image-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-right: 80px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.empty-profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(191, 65, 65); /* Set desired background color for empty image */
+}
+
+/* Add this CSS to your stylesheet */
+.address-box {
+  border: 10px solid #d5c9c9;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #e7dcdc;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.address-box h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.address-box label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.address-box input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Profile.css */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: #f5f5f5; /* Add a background color if desired */
+}
+
+.profile-content {
+  max-width: 300px; /* Adjust the maximum width as needed */
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  height: 10%;
+  border: 20px red;
+}
+
+.center-toast {
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.addresss-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background-color: #f5f5f5; /* Add a background color if desired */
+}
+
+.addresss-content {
+  max-width: 500px; /* Adjust the maximum width as needed */
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(2, 6, 114, 0.2);
+  height: 10%;
+  color: white;
+  background-color: rgb(152, 9, 9);
+}
+
+.address-input{
+  width: 150px;
+}
+
+.profileDetails-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #f5f5f5; /* Add a background color if desired */
+}
+
+.profileDetails-content {
+  max-width: 500px; /* Adjust the maximum width as needed */
+  width: 50%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(232, 233, 234);
+  height: 10%;
+  border: 20px red;
+}
+.expand-icon {
+  margin-right: 8px;
+  
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.expand-btn{
+  margin-left: 200px;
+  background-color: rgb(152, 9, 9);
+  color: white;
+  border: none;
+}
+.expand-btn:hover{
+  background-color: black;
+  color: white;
+}
+.gender{
+  padding: 5px;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f66565;
+  
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right bottom, #ab1212, #ab1212);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, #ab1212, #ab1212)
+  }
+
+  .intext{
+    border: 1px solid black;
+    height: '50px';
+    padding: '8px';
+    font-size: '16px';
+  }
+
+  .gendersize{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 6px;
+  }
+  .updatebut{
+    
+    justify-content: center;
+    border: none;
+    padding: 20px;
+    background-color: white;
+    color: #ab1212;
+    height: 50px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    
+  }
+  .updatebut:hover{
+    background-color: green;
+    color: white;
+    
+  }
+  
+  #upadtebu{
+    position: relative;
+  
+    top: 168px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .upshare{
+    display: grid;
+  }
+
+
+  #shareicons{
+    margin-left: 30%;
+  }
+  .emailtext{
+    
+    background-color: white;
+    color: #ab1212;
+    max-width: 90%;
+    height: 50px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    border-radius: 10px;
+
+  }

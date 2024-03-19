@@ -1,0 +1,162 @@
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+
+.Capribox {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    background-image: url("../Images/capri.png");
+    background-size: contain; /* Adjust to 'cover' if needed */
+    background-repeat: no-repeat;
+    background-position: left;
+  flex-direction: column;
+  margin: 10px;
+  height: 300px;
+  }
+
+  .Sitecorebox {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    background-image: url("../Images/xml.png");
+    background-size: contain; /* Adjust to 'cover' if needed */
+    background-repeat: no-repeat;
+    background-position: left;
+  flex-direction: column;
+  margin: 10px;
+  height: 300px
+  }
+  
+  .Cyberbox {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    background-size: contain; /* Adjust to 'cover' if needed */
+    background-repeat: no-repeat;
+    background-position: left;
+  flex-direction: column;
+  margin: 60px;
+  }
+
+  .timer-end-test {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .label {
+    text-align: left;
+    margin: 2px 0;
+    justify-content: center;
+    max-height: 64px;
+  }
+  
+  .labels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 310px;
+    height: auto;
+  }
+  
+  .button {
+    margin-top: 20px;
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gold-star {
+    color: gold;
+    margin-right: 5px;
+  }
+  
+  /* Rest of your existing styles... */
+
+.score-message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+/* Add this to your existing CSS file */
+/* Add this to your existing CSS file */
+.correct-answer {
+  color: green;
+  margin-left: 5px;
+}
+
+.wrong-answer {
+  color: red;
+  margin-left: 5px;
+}
+
+
+
+  .end-test-button {
+    width: 100px;
+    margin-left: 990px;
+  }
+
+  /* .challenge-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    max-height: auto;
+  } */
+
+  .medal-icon {
+    color: gold;
+    margin-left: 5px; /* Adjust as needed */
+    vertical-align: middle;
+}
+
+.btn-danger{
+    border-radius: 3px;
+    width: 90px;
+    height: 35px;
+    margin-left: 980px;
+}
+
+.bold-question {
+  font-weight: bold;
+}
+
+.exam-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* Styles for the options */
+.option-label {
+  display: block;
+  margin: 10px 0;
+}
+
+/* Styles for the submit button */
+.submit-button {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 300px;
+}
+.list-group-item{
+  padding: 30px;
+}

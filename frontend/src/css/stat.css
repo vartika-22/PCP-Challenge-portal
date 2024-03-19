@@ -1,0 +1,16 @@
+/* StatisticsCards.css */
+.abc{
+  margin: 0;
+  padding: 0;
+}
+.card-container {
+     /* Adjust the spacing as needed */
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+    right: 10px;
+  }
+  .custom-sp{
+    margin-right: 5px;
+  }
+  

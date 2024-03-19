@@ -1,0 +1,61 @@
+/* header.css */
+
+.header {
+
+    height: 120px;
+
+    background-color: rgb(235, 238, 241);
+
+    width: 100%;
+
+    margin: 20px auto; /* Add a gap of 20px on all sides and center horizontally */
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+   
+
+   
+
+  }
+
+ 
+
+  .header h4 {
+
+    margin: 0;
+
+    padding: 10px;
+
+  }
+
+ 
+
+  .header span {
+
+   
+
+    margin: 0 5px; /* Add a small margin around the span elements */
+
+  }
+
+ 
+
+ 
+
+  /* Font Awesome icons color classes */
+
+  .header .fa-tachometer-alt {
+
+    color: #ff0000; /* Change the color to your preference */
+
+  }
+
+ 
+
+  .header .fa-chart-bar {
+
+    color: #28a745; /* Change the color to your preference */
+
+  }
