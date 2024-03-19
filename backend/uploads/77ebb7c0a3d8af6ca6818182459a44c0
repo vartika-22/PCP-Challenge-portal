@@ -1,0 +1,15 @@
+{
+  "title": "Sample Quiz",
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin", "Madrid"],
+      "correctOption": 0
+    },
+    {
+      "question": "Which planet is known as the 'Red Planet'?",
+      "options": ["Earth", "Mars", "Jupiter", "Venus"],
+      "correctOption": 1
+    }
+  ]
+}

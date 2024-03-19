@@ -1,0 +1,28 @@
+[
+  {
+    "question": "What is the output of the following code?\nprint(2 + 3 * 4)",
+    "options": ["14", "20", "7", "9"],
+    "correctOption": 1
+  },
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["method", "def", "function", "define"],
+    "correctOption": 1
+  },
+  {
+    "question": "What is the correct way to comment multiple lines in Python?",
+    "options": [
+      "# This is a comment",
+      "// This is a comment",
+      "/* This is a comment */",
+      "''' This is a comment '''"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Which of the following data types is mutable?",
+    "options": ["int", "str", "list", "tuple"],
+    "correctOption": 2
+  }
+  
+]
