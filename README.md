@@ -15,3 +15,5 @@
 ![image](https://github.com/vartika-22/PCP-Challenge-portal/assets/112158995/372729e2-4911-4f43-b3fa-2caf84ce14a6)
 
 ![image](https://github.com/vartika-22/PCP-Challenge-portal/assets/112158995/b1831676-a18c-4742-8130-618d4c210057)
+
+<img width="960" alt="image" src="https://github.com/vartika-22/PCP-Challenge-portal/assets/112158995/f78a5584-4e0e-41bf-9976-828f1c53501c">
